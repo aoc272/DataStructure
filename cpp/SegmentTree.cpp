@@ -1,7 +1,3 @@
-#include <vector>
-
-using namespace std;
-
 int query(const vector<int>& seg, int n, int b, int e, int l, int r) {
     if (r < b || e < l)
         return 0;
